@@ -15,7 +15,12 @@ public class MainController {
 		// 低侵入式
 		return "index";
 
+
 		// 代码冲突A
+
+		
+		//哈哈哈
+
 	}
 
 	// 到登录页面
