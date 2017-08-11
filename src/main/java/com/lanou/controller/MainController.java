@@ -14,6 +14,8 @@ public class MainController {
 	public String frontPage() {
 		// 低侵入式
 		return "index";
+
+		// 代码冲突A
 	}
 
 	// 到登录页面
@@ -26,7 +28,8 @@ public class MainController {
 	public String userinfo() {
 		return "userinfo";
 	}
-//4651651-4164168-14561
+
+	// 4651651-4164168-14561
 	// form表单请求
 	@RequestMapping("/login")
 	public String login(HttpServletRequest request, @RequestParam("username") String name,
