@@ -14,6 +14,8 @@ public class MainController {
 	public String frontPage() {
 		// 低侵入式
 		return "index";
+		
+		//哈哈哈
 	}
 
 	// 到登录页面
