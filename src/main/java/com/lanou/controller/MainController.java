@@ -26,7 +26,7 @@ public class MainController {
 	public String userinfo() {
 		return "userinfo";
 	}
-
+//4651651-4164168-14561
 	// form±Ìµ•«Î«Û
 	@RequestMapping("/login")
 	public String login(HttpServletRequest request, @RequestParam("username") String name,
